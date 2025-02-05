@@ -32,6 +32,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -53,6 +54,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "aot": true,
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
@@ -91,6 +93,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
               "src/styles.scss"
             ],
             "scripts": []
